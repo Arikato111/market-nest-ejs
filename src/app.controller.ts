@@ -6,6 +6,11 @@ import { Request, Response } from 'express';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
+  @Get('id')
+  checkApi() {
+    return { msg: 'Hello' };
+  }
+
   @Get()
   getHello(@Req() req: Request, @Res() res: Response) {
     res.cookie('hello', { store: [] }, { httpOnly: true, sameSite: true });
