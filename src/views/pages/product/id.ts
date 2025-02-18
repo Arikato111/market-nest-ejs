@@ -1,3 +1,4 @@
+const ProductId = `
 <main>
     <% if(product) { %>
         <div style="display: flex;">
@@ -19,4 +20,6 @@
         <% } else { %>
             <h1>Not found product</h1>
             <% } %>
-</main>
+</main>`;
+
+export default ProductId;

@@ -1,3 +1,4 @@
+export default `
 <main>
     <h1>Home page</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium assumenda officiis sunt possimus tempore
@@ -28,3 +29,4 @@
         Molestiae, exercitationem tempore obcaecati saepe nemo, natus error non explicabo voluptatem officiis incidunt
         corporis voluptatibus voluptas!</p>
 </main>
+`;

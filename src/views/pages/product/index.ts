@@ -1,4 +1,4 @@
-<main>
+const ProductHome = `<main>
     <% for(const product of products) { %>
         <div style="display: flex;">
             <div style="border: 1px solid black;margin: 1em;">
@@ -20,4 +20,6 @@
             </div>
         </div>
         <% } %>
-</main>
+</main>`;
+
+export default ProductHome;
